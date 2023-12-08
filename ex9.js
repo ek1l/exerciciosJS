@@ -1,3 +1,4 @@
+var a = 'a'.repeat(1000);
 const verifyString = (str) => {
   let objStr = {};
   let arrTemp = [];
@@ -13,6 +14,7 @@ const verifyString = (str) => {
 
   for (let chave in objStr) {
     arrTemp.push(objStr[chave]);
+    console.log(arrTemp);
   }
 
   let everyTrueOrFalse =

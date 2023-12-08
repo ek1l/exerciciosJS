@@ -28,6 +28,7 @@ const history = (str) => {
     'y',
     'z',
   ];
+
   let numAtual = 0;
   for (let i = 0; i < stre.length; i++) {
     if (alphabet.indexOf(stre[i]) >= numAtual) {
@@ -37,4 +38,3 @@ const history = (str) => {
 
   return alphabet[numAtual];
 };
- 

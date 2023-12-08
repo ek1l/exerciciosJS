@@ -11,4 +11,4 @@ const recursiveString = (n) => {
   return str;
 };
 
- 
+console.log(recursiveString(7));

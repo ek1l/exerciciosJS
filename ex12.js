@@ -22,4 +22,4 @@ const valorEmMoedas = (n) => {
   return moedas;
 };
 
-console.log(valorEmMoedas(500));
+console.log(valorEmMoedas(478));
