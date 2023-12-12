@@ -6,9 +6,8 @@ const recursiveString = (n) => {
       traco = '';
     }
     str += `chunk${traco}${recursiveString(n - 1)}`;
-  }
-
+  }  
   return str;
 };
 
-console.log(recursiveString(7));
+console.log(recursiveString(2));

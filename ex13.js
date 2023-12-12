@@ -32,5 +32,3 @@ const verifyNumber = (n) => {
     return false;
   }
 };
-
-
